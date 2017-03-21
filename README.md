@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/daniil-omelchenko/timepy/badge.svg?branch=master)](https://coveralls.io/github/daniil-omelchenko/timepy?branch=master)
 [![PyPI version](https://badge.fury.io/py/timepy.svg)](https://badge.fury.io/py/timepy)
 
-The simplest ever library for measuring time of python code execution.
+The simplest ever library for measuring time of Python code execution.
 
 ## Installation
 
@@ -29,7 +29,7 @@ t.stop()
 print(t.total_time)
 ```
 
-You can give a name fro your timer:
+You can give a name for your timer:
 
 ```python
 t = Timer('My second timer')

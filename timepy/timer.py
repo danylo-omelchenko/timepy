@@ -3,10 +3,10 @@ from datetime import datetime
 
 
 class Timer:
-    """Timer provide ability to measure execution time."""
+    """Timer which provides ability to measure execution time."""
 
     def __init__(self, name='no name'):
-        """Crete new timer.
+        """Create new timer.
 
         Args:
             name (str): Name of the timer.
@@ -47,7 +47,7 @@ class Timer:
         """Commit time point while timer is working.
 
         Args:
-            message (str): Message associated with time point.
+            message (str): Message associated with a time point.
         """
         now = datetime.now()
         self.events.append(TimerCommitted(message, self.start_time, now))
